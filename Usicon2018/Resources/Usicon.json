@@ -1,0 +1,70 @@
+{
+    "Items":[
+             {
+             "title":"Home",
+             "image_name":"home.png",
+             "destination_url":"http://usicon2018.com/index.html"
+             },
+             {
+             "title":"News & Update",
+             "image_name":"newspaper.png",
+             "destination_url":"http://usicon2018.com/index.html"
+             },
+             {
+             "title":"Venue",
+             "image_name":"today.png",
+             "destination_url":"http://usicon2018.com/venue.html"
+             },
+             {
+             "title":"Committee",
+             "image_name":"conference.png",
+             "destination_url":"http://usicon2018.com/committee.html"
+             },
+             {
+             "title":"Registration",
+             "image_name":"edit-user.png",
+             "destination_url":"http://usicon2018.com/registration.html"
+             },
+             {
+             "title":"Scientific Prog",
+             "image_name":"atomic.png",
+             "destination_url":"http://usicon2018.com/pdf/Program.pdf"
+             },
+             {
+             "title":"Accommodation",
+             "image_name":"hotel.png",
+             "destination_url":"http://usicon2018.com/accommodation.html"
+             },
+             {
+             "title":"Faculty",
+             "image_name":"performance.png",
+             "destination_url":"http://usicon2018.com/faculty.html"
+             },
+             {
+             "title":"Call Abstract",
+             "image_name":"assistant.png",
+             "destination_url":""
+             },
+             {
+             "title":"Poll Option",
+             "image_name":"settings.png",
+             "destination_url":""
+             },
+             {
+             "title":"Contact Us",
+             "image_name":"contacts.png",
+             "destination_url":"http://usicon2018.com/contacts.html"
+             },
+             {
+             "title":"Sponsers Exhibition",
+             "image_name":"handshake.png",
+             "destination_url":""
+             },
+             {
+             "title":"Registered Dele.",
+             "image_name":"login.png",
+             "destination_url":"http://usicon2018.com/registereddelegates.html"
+             }
+             ]
+}
+
