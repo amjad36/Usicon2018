@@ -54,7 +54,6 @@ extension BaseModel {
                 itemList.append(instance!)
             }
         }
-        
         return itemList
     }
 }

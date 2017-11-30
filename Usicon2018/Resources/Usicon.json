@@ -8,7 +8,7 @@
              {
              "title":"News & Update",
              "image_name":"newspaper.png",
-             "destination_url":"http://usicon2018.com/index.html"
+             "destination_url":"http://usicon2018.com/newsupdate.html"
              },
              {
              "title":"Venue",
@@ -56,7 +56,7 @@
              "destination_url":"http://usicon2018.com/contacts.html"
              },
              {
-             "title":"Sponsers Exhibition",
+             "title":"Sponsors/Exhibitors",
              "image_name":"handshake.png",
              "destination_url":""
              },

@@ -25,6 +25,8 @@
 		2951E9661FC55C3C00516348 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2951E9641FC55C3C00516348 /* ContentCell.xib */; };
 		2951E96A1FC56BFB00516348 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951E9681FC56BFB00516348 /* Content.swift */; };
 		2951E96B1FC56BFB00516348 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951E9691FC56BFB00516348 /* BaseModel.swift */; };
+		29DFE8B11FD0A427004E9122 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29DFE8B01FD0A427004E9122 /* GoogleService-Info.plist */; };
+		DD849961257FAEA8093376F6 /* Pods_Usicon2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA440F1235ACF40B7417815B /* Pods_Usicon2018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		2951E9641FC55C3C00516348 /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
 		2951E9681FC56BFB00516348 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		2951E9691FC56BFB00516348 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		29DFE8B01FD0A427004E9122 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7B1FC7B01D2272DC43CD613 /* Pods-Usicon2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Usicon2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Usicon2018/Pods-Usicon2018.release.xcconfig"; sourceTree = "<group>"; };
+		DE7893197972F795F9DF6B13 /* Pods-Usicon2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Usicon2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Usicon2018/Pods-Usicon2018.debug.xcconfig"; sourceTree = "<group>"; };
+		FA440F1235ACF40B7417815B /* Pods_Usicon2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Usicon2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD849961257FAEA8093376F6 /* Pods_Usicon2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,8 @@
 			children = (
 				2951E9091FBF5EF000516348 /* Usicon2018 */,
 				2951E9081FBF5EF000516348 /* Products */,
+				362FD14567DD8C098DFD02CA /* Pods */,
+				2ADF5F1A875866A1A0B96963 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +159,7 @@
 		2951E9591FC4965400516348 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29DFE8B01FD0A427004E9122 /* GoogleService-Info.plist */,
 				2951E9111FBF5EF000516348 /* Assets.xcassets */,
 				2951E95B1FC496BA00516348 /* Usicon.json */,
 				2951E9161FBF5EF000516348 /* Info.plist */,
@@ -175,6 +185,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2ADF5F1A875866A1A0B96963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA440F1235ACF40B7417815B /* Pods_Usicon2018.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		362FD14567DD8C098DFD02CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE7893197972F795F9DF6B13 /* Pods-Usicon2018.debug.xcconfig */,
+				D7B1FC7B01D2272DC43CD613 /* Pods-Usicon2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2951E9191FBF5EF100516348 /* Build configuration list for PBXNativeTarget "Usicon2018" */;
 			buildPhases = (
+				067B7F31D5A6907DE985611A /* [CP] Check Pods Manifest.lock */,
 				2951E9031FBF5EF000516348 /* Sources */,
 				2951E9041FBF5EF000516348 /* Frameworks */,
 				2951E9051FBF5EF000516348 /* Resources */,
+				9AA8113E4E1537809F74CF34 /* [CP] Embed Pods Frameworks */,
+				28E01FD9C703632A83F10614 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,10 +270,69 @@
 				2951E95C1FC496BA00516348 /* Usicon.json in Resources */,
 				2951E9101FBF5EF000516348 /* Main.storyboard in Resources */,
 				2951E9661FC55C3C00516348 /* ContentCell.xib in Resources */,
+				29DFE8B11FD0A427004E9122 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067B7F31D5A6907DE985611A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Usicon2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E01FD9C703632A83F10614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Usicon2018/Pods-Usicon2018-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA8113E4E1537809F74CF34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Usicon2018/Pods-Usicon2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Usicon2018/Pods-Usicon2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2951E9031FBF5EF000516348 /* Sources */ = {
@@ -316,7 +405,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alpcord Network (3WF228SLAC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alpcord Network (27U6ZP2W29)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -340,7 +429,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "a9902e71-d672-4f97-9fc7-0214eef31545";
+				PROVISIONING_PROFILE = "6cc0c401-1eb2-46fd-a563-aa4a8f22e61e";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -376,7 +465,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alpcord Network (3WF228SLAC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alpcord Network (27U6ZP2W29)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -393,7 +482,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "a9902e71-d672-4f97-9fc7-0214eef31545";
+				PROVISIONING_PROFILE = "6cc0c401-1eb2-46fd-a563-aa4a8f22e61e";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -402,17 +491,19 @@
 		};
 		2951E91A1FBF5EF100516348 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7893197972F795F9DF6B13 /* Pods-Usicon2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alpcord Network (3WF228SLAC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alpcord Network (27U6ZP2W29)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3WF228SLAC;
 				INFOPLIST_FILE = Usicon2018/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpcordnetwork.usicon2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a9902e71-d672-4f97-9fc7-0214eef31545";
-				PROVISIONING_PROFILE_SPECIFIER = UsiconAppStoreProvisioningProfile;
+				PROVISIONING_PROFILE = "6cc0c401-1eb2-46fd-a563-aa4a8f22e61e";
+				PROVISIONING_PROFILE_SPECIFIER = UsiconDeveloperProfile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -420,17 +511,19 @@
 		};
 		2951E91B1FBF5EF100516348 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B1FC7B01D2272DC43CD613 /* Pods-Usicon2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alpcord Network (3WF228SLAC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alpcord Network (27U6ZP2W29)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3WF228SLAC;
 				INFOPLIST_FILE = Usicon2018/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpcordnetwork.usicon2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a9902e71-d672-4f97-9fc7-0214eef31545";
-				PROVISIONING_PROFILE_SPECIFIER = UsiconAppStoreProvisioningProfile;
+				PROVISIONING_PROFILE = "6cc0c401-1eb2-46fd-a563-aa4a8f22e61e";
+				PROVISIONING_PROFILE_SPECIFIER = UsiconDeveloperProfile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

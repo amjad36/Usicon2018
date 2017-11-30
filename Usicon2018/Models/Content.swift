@@ -35,6 +35,7 @@ class Content: BaseModel {
     func dictionaryRepresentation() -> [String : Any]? {
         return nil
     }
+    
 }
 
 class Item: BaseModel {
